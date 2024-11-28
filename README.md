@@ -1,24 +1,58 @@
-Project Title:
+# ZeroGTweaks
 
-ZeroGTweaks
-Short Description:
+ZeroGTweaks is a Minecraft Forge mod for Minecraft 1.20.1 that enhances gameplay by introducing custom items and blocks with unique models and textures.
 
-ZeroGTweaks is a Minecraft Forge mod for Minecraft 1.20.1 that enhances the game with custom items and blocks, featuring unique models and textures. It also includes a dedicated creative tab and localized names.
-Features:
+## Features
+- **Custom Item**: Zero Ausioum (gem/ingot) with a unique texture and model.
+- **Custom Block**: Zero Ausioum Ore with layered textures for a vibrant look.
+- **Creative Tab**: A dedicated creative tab for mod-specific items and blocks.
+- **Localization**: Full English (`en_us`) support for item/block names and creative tab display.
 
-    A custom item called "Zero Ausioum" (gem/ingot) with a unique texture.
-    A custom block called "Zero Ausioum Ore" with layered textures.
-    A dedicated creative tab for mod-specific items and blocks.
-    English localization for item and block names as well as the creative tab.
+## Directory Structure
+```
+src/main/
+├── java/com/zerogtweaks/
+│   ├── ZeroGTweaks.java
+│   ├── registry/
+│   │   ├── BlockRegistry.java
+│   │   └── ItemRegistry.java
+├── resources/assets/zerogtweaks/
+│   ├── blockstates/
+│   │   └── zero_ausioum_ore.json
+│   ├── models/
+│   │   ├── block/
+│   │   │   └── zero_ausioum_ore.json
+│   │   └── item/
+│   │       ├── zero_ausioum.json
+│   │       └── zero_ausioum_ore.json
+│   ├── textures/
+│   │   ├── block/
+│   │   │   ├── ausioumorelayer1.png
+│   │   │   ├── ausioumorelayer2.png
+│   │   │   └── ausioumorelayer3.png
+│   │   └── item/
+│   │       └── zero_ausioum.png
+│   └── lang/
+│       └── en_us.json
+└── META-INF/
+    └── mods.toml
+```
 
-Directory Structure:
+## Getting Started
+To build and run the mod locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/ZeroGTweaks.git
+   ```
+2. Open the project in an IDE like IntelliJ IDEA or Eclipse.
+3. Build the mod using Gradle:
+   ```bash
+   ./gradlew build
+   ```
+4. Test it in a Minecraft Forge development environment.
 
-Provide an overview of the key directories and their purpose, such as Java code, assets, textures, blockstates, and model files.
-How to Build and Run:
+## Contributing
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. For major changes, please open an issue first to discuss what you’d like to change.
 
-Explain how users can clone the repository, build the mod using Gradle, and test it in a Minecraft Forge development environment.
-License:
-
-Include the license details for the mod. In this case: "All rights reserved. This mod is not to be distributed without permission from the author, MrWhiteFlamesYT."
-
-Add this content to your README.md and commit it to your repository. If you’re doing this locally, push it to GitHub afterward.
+## License
+This project is licensed under **All rights reserved**. Redistribution or use of this mod is not permitted without prior approval from the author, MrWhiteFlamesYT.
