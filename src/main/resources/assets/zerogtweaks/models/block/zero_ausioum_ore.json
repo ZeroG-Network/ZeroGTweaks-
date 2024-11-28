@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ausioumorelayer3",
-		"1": "ausioumorelayer2",
-		"2": "ausioumorelayer1"
+        "0": "zerogtweaks:block/ausioumorelayer3",
+        "1": "zerogtweaks:block/ausioumorelayer2",
+        "2": "zerogtweaks:block/ausioumorelayer1"
 	},
 	"elements": [
 		{
@@ -18,5 +18,5 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
-	],
+	]
 }
