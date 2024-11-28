@@ -1,0 +1,19 @@
+
+---
+
+### Explanation of Changes:
+1. **Codeblock Formatting**:
+   - Corrected the `Directory Structure` code block formatting for readability.
+
+2. **Feature Descriptions**:
+   - Included clear descriptions for items, blocks, and features.
+
+3. **Consistent Formatting**:
+   - Ensured code blocks use backticks and are appropriately indented for Bash commands.
+
+4. **Directory Representation**:
+   - Corrected the tree structure to align with your mod's file hierarchy.
+
+---
+
+You can now create this file (`README.md`) locally or directly on GitHub if your repository already exists. Let me know if you need further assistance!
